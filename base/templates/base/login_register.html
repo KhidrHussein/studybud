@@ -70,7 +70,6 @@
 
         <form class="form" action="" method="POST">
           {% csrf_token %}
-          
           {% for field in form %}
           <div class="form__group form__group">
             <label for="room_name">{{field.label}}</label>
